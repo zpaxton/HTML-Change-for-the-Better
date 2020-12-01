@@ -31,20 +31,20 @@
         <hr>
         <h1>Contact Us</h1>
         <h6>We my take 3-6 business days to respond</h6>
-        <h5>Click the green button to submit or the red button to clear the form</h5>
+        <h5>Click the 'Clear Form' button to clear the form or the 'Submit Form' button to submit the form data</h5>
         <form>
             <h2>Contact Form</h2>
             <div>
-                Your First Name:
-                <input type="text" name="fn" id="fn">
+                <label for="firstname">Your First Name:</label>
+                <input type="text" name="firstname" id="firstname">
             </div>
             <div>
-                Your Last Name:
-                <input type="text" name="ln" id="ln">
+                <label for="lastname">Your Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
             </div>
             <div>
-                Concern or Issue:
-                <select name="concern">
+                <label for="concern">Concern or Issue:</label>
+                <select name="concern" id="concern">
                     <option value="missing product">1</option>
                     <option value="billing issue">2</option>
                     <option value="speak with representative">3</option>
@@ -55,8 +55,8 @@
                 Other Notes:
                 <textarea></textarea>
             </div>
-            <input type="submit" class="btn1">
-            <input type="submit" class="btn2">
+            <input type="submit" value="Clear Form">
+            <input type="submit" value="Submit Form">
         </form>
         <hr>
         <h1>Directions</h1>
